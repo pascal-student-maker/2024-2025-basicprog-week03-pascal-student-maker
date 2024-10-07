@@ -8,7 +8,7 @@ from datetime import datetime
 #     today = datetime.now()
 #     hour = today.hour
 #     if hour >= 7 and hour < 12:
-#         result = f"Goord morning, {name}"
+#         result = f"Good morning, {name}"
 #     elif hour >= 12 and hour < 13:
 #         result = f"Hurrah it's noon, {name}"
 #     elif hour >= 13 and hour < 17:
