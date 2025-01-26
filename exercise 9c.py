@@ -1,31 +1,27 @@
-#exercise 9c
-import random
-print(random.randint(1,20))
+import random 
 
-int(input("Guess a number between 1 and 20:"))
-total = 0
-for i in range(1,20):
-    total = print(random.randint(1,20))
-print(" the numbers is too big.")    
+Attempts = 1
 
-int(input("Guess a number between 1 and 20:"))
-total = 0
-for i in range(1,20):
-    total =  print(random.randint(1,20))
-print(" the numbers is too big.")  
+number = int(input("Enter a number:"))
+correct_number = random.randint(0,20)
 
 
-int(input("Guess a number between 1 and 20:"))
-total = 0
-for i in range(1,20):
-    total =  print(random.randint(1,20))
-print(" the numbers is too big.")  
+while number != correct_number:
+    print("Error try again")
+    
+    if number >  correct_number:
+        print("  Number is too big")
+        
+    elif number < correct_number:
+        print(" number is too small")   
+    
+    number = int(input("Enter a number:"))
+ 
+    Attempts += 1
+print(f" Congratulatons you guessed the right number: in only {Attempts} tries.")   
 
-int(input("Guess a number between 1 and 20:"))
-total = 0
-for i in range(1,20):
-    total =  print(random.randint(1,20))
-print(" You guessed the correct numbers in 4 tries.")  
 
-  
+ 
+        
+         
 
